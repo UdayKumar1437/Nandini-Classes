@@ -101,6 +101,6 @@ def isArmstrong(num):
         sum+=int(i)**len(str(num))
     return sum == num
 
-for i isetsn range(1,500):
+for i in range(1,500):
     if isArmstrong(i):
         print(i)
