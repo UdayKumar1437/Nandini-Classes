@@ -36,3 +36,7 @@ finally:
     print("Monark")
 
 # print(list(reversed([4,2,2])))
+
+arr = [1,2,3]
+# arr.reverse()
+print(list(reversed(arr)))
