@@ -42,5 +42,9 @@
 # print(ans)
 
 
-ans = {i:i*i for i in range(1,11) if i%2 ==0}
+# ans = {i:i*i for i in range(1,11) if i%2 ==0}
+# print(ans)
+
+n = 10
+ans = [x for x in range(1,n+1) if n%x ==0]
 print(ans)
